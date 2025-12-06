@@ -194,7 +194,7 @@ export default function TeamsPage() {
                   <div className="flex items-center justify-between p-3 bg-gray-800/50 rounded-lg">
                     <span className="text-sm text-gray-400 font-mono">Status</span>
                     <Badge variant={team.status === 'active' ? 'default' : 'secondary'} className={team.status === 'active' ? 'bg-green-600' : 'font-mono'}>
-                      {team.status.charAt(0).toUpperCase() + team.status.slice(1)}
+                      {team?.status?.charAt(0).toUpperCase() + team.status?.slice(1)}
                     </Badge>
                   </div>
 

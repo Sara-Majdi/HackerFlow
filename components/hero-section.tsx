@@ -12,6 +12,11 @@ import AnalyticsPageImage from '@/assets/landingPage/AnalyticsPage.png'
 import AIIdeaGeneratorImage from '@/assets/landingPage/AIIdeaGenerator.png'
 import ProfilePrivacyImage from '@/assets/Profile Privacy.png'
 import DashboardImage from '@/assets/Dashboard.png'
+import FindFriendsImage from '@/assets/landingPage/Find Friends Image.png'
+import GithubProfileImage from '@/assets/landingPage/GithubProfileImage.png'
+import HackerDashboardImage from '@/assets/landingPage/HackerDashboardImage.png'
+import ParticipantManagementImage from '@/assets/landingPage/ParticipantManagementImage.png'
+import CreateHackathonImage from '@/assets/landingPage/CreateHackathonImage.png'
 
 const categoryTabs = [
   {
@@ -497,7 +502,7 @@ export function HeroSection() {
 
                             {activeFeature.id === 'profiles' && (
                               <Image
-                                src={ProfilePrivacyImage}
+                                src={GithubProfileImage}
                                 alt="GitHub Profile Integration"
                                 className="rounded-md"
                               />
@@ -505,7 +510,7 @@ export function HeroSection() {
 
                             {activeFeature.id === 'connect' && (
                               <Image
-                                src={AIMatchingImage}
+                                src={FindFriendsImage}
                                 alt="Discover People"
                                 className="rounded-md"
                               />
@@ -513,7 +518,7 @@ export function HeroSection() {
 
                             {activeFeature.id === 'dashboard' && (
                               <Image
-                                src={DashboardImage}
+                                src={HackerDashboardImage}
                                 alt="Dashboard Analytics"
                                 className="rounded-md"
                               />
@@ -521,7 +526,7 @@ export function HeroSection() {
 
                             {activeFeature.id === 'organize' && (
                               <Image
-                                src={AnalyticsPageImage}
+                                src={CreateHackathonImage}
                                 alt="Host Events"
                                 className="rounded-md"
                               />
@@ -545,7 +550,7 @@ export function HeroSection() {
 
                             {activeFeature.id === 'participants' && (
                               <Image
-                                src={DashboardImage}
+                                src={ParticipantManagementImage}
                                 alt="Participant Management"
                                 className="rounded-md"
                               />
