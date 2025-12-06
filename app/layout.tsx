@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import { NavbarGate, FooterGate } from "@/components/layout-gates";
 import { Toaster } from 'react-hot-toast';
+import { Analytics } from '@vercel/analytics/react';
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -64,6 +65,7 @@ export default function RootLayout({
           <div className="relative z-10">
             <NavbarGate />
             {children}
+            <Analytics />
             <FooterGate />
           </div>
           <Toaster

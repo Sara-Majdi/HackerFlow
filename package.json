@@ -59,6 +59,7 @@
     "@tiptap/react": "^3.6.5",
     "@tiptap/starter-kit": "^3.6.5",
     "@types/canvas-confetti": "^1.9.0",
+    "@vercel/analytics": "^1.6.1",
     "@xyflow/react": "^12.8.6",
     "ai": "^5.0.76",
     "bento-grid": "^0.1.1",
